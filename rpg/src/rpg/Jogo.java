@@ -6,7 +6,8 @@ public static void main(String[] args) {
 		heroi.tipoHeroi = "Dps";
 		heroi.nome="Skarlet";
 		heroi.defesa=15;
-		heroi.forca=30;
+		heroi.forca=15;
+		heroi.poder=15;
 		
 		Personagem boss = new Personagem();
 		boss.tipoHeroi="boss";
