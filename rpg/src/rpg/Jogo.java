@@ -8,7 +8,14 @@ public static void main(String[] args) {
 		heroi.defesa=15;
 		heroi.forca=30;
 		
-		heroi.chamarStatus();
+		Personagem boss = new Personagem();
+		boss.tipoHeroi="boss";
+		boss.nome="minions";
+		boss.defesa=120;
+		boss.forca=70;
+		
+		//heroi.chamarStatus();
+		heroi.atacar("Minotauro","Ultimate");
 		
 	}
 
